@@ -9,4 +9,5 @@ const AppInfo = ({increased, employees}) => {
         </div>
     )
 }
+
 export default AppInfo

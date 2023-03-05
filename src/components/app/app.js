@@ -69,7 +69,7 @@ class App extends Component{
     }
 
     onUpdateSearch = (term) => {
-        this.setState({term})
+        this.tate({term})
     }
 
     render() {

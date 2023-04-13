@@ -100,6 +100,7 @@ class App extends Component{
                 <AppInfo 
                     employees={employees} 
                     increased={increased}/>
+                    
                 <div className="search-panel">
                     <SearchPanel
                         onUpdateSearch={this.onUpdateSearch}
@@ -108,7 +109,8 @@ class App extends Component{
                     filter={filter}
                     onFilterSelect={this.onFilterSelect}
                     />
-                </div>                
+                </div>   
+
                 <EmployeesList 
                     data={visibleData}
                     onDelete={this.deleteItem}

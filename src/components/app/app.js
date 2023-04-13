@@ -108,8 +108,7 @@ class App extends Component{
                     filter={filter}
                     onFilterSelect={this.onFilterSelect}
                     />
-                </div>
-                
+                </div>                
                 <EmployeesList 
                     data={visibleData}
                     onDelete={this.deleteItem}

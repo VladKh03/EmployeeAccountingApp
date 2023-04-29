@@ -99,8 +99,7 @@ class App extends Component{
             <div className="app">
                 <AppInfo 
                     employees={employees} 
-                    increased={increased}/>      
-                                  
+                    increased={increased}/>     
                 <div className="search-panel">
                     <SearchPanel
                         onUpdateSearch={this.onUpdateSearch}

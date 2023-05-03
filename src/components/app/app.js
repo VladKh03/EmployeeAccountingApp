@@ -95,6 +95,7 @@ class App extends Component{
         const increased = data.filter(item => item.increase).length;
         const visibleData = this.filterPost(this.searchEmp(data, term), filter)
 
+        
         return (
             <div className="app">
                 <AppInfo 
